@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./script.js"></script>
+    <script defer src="./navigation.js"></script>
 </head>
 <body class="text-gray-800 antialiased">
 
@@ -77,10 +80,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl" data-aos="fade-up">
+              <h1 class="text-white font-semibold text-5xl">
                 Welcome your epiphany.
               </h1>
-              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
+              <p class="mt-4 text-lg text-gray-300">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
             </div>
@@ -737,18 +740,4 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init({
-  delay: 200,
-  duration: 1500,
-  once: false,
-  mirror: false,
-});</script>
-<!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
 </html>
